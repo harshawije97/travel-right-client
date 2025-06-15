@@ -7,9 +7,6 @@ import CoverPhotoUpload from "./cover-photo-upload";
 function UserProfileSection() {
   return (
     <section className="flex flex-col w-full">
-      <header>
-        <h2>Profile Information</h2>
-      </header>
       <AvatarUpload />
       {/* Cover Photo Section */}
       <div className="space-y-4 flex w-full gap-x-10 items-center">

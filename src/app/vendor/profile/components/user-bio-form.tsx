@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import NiceDobSplitter from "@/app/vendor/profile/components/nice-dob-splitter";
 import { Button } from "@/components/ui/button";

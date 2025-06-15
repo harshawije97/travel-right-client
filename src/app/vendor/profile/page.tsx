@@ -2,6 +2,7 @@ import { Separator } from "@/components/ui/separator";
 import React from "react";
 import UserProfileSection from "./components/user-profile-section";
 import UserInformation from "./components/user-bio-form";
+import BusinessDetailsSection from "./components/business-details-section";
 
 function EditVendorProfile() {
   return (
@@ -13,8 +14,6 @@ function EditVendorProfile() {
               <h1 className="text-xl font-medium">Edit Profile</h1>
             </header>
             <div className="w-full h-full flex flex-col gap-4 px-6 py-4">
-              <UserProfileSection />
-              <Separator />
               <section className="w-full">
                 {/* User Personal information */}
                 <UserInformation />
@@ -29,10 +28,7 @@ function EditVendorProfile() {
             <div className="w-full h-full flex flex-col gap-4 px-6 py-4">
               <UserProfileSection />
               <Separator />
-              <section className="w-full">
-                {/* User Personal information */}
-                <UserInformation />
-              </section>
+              <BusinessDetailsSection />
             </div>
           </section>
         </div>

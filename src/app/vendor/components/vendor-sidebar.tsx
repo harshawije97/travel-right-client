@@ -15,6 +15,7 @@ import {
   Home,
   Search,
   Settings,
+  User,
 } from "lucide-react";
 import React from "react";
 
@@ -22,32 +23,37 @@ import React from "react";
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "/vendor/dashboard",
     icon: Home,
   },
   {
     title: "Analytics",
-    url: "#",
+    url: "/vendor/analytics",
     icon: ChartColumnIcon,
   },
   {
     title: "Reservations",
-    url: "#",
+    url: "/vendor/reservations",
     icon: Calendar,
   },
   {
     title: "Search",
-    url: "#",
+    url: "/vendor/global-search",
     icon: Search,
   },
   {
     title: "Gallery",
-    url: "#",
+    url: "/vendor/gallery",
     icon: Container,
   },
   {
+    title: "Profile",
+    url: "/vendor/profile",
+    icon: User,
+  },
+  {
     title: "Settings",
-    url: "#",
+    url: "/vendor/settings",
     icon: Settings,
   },
 ];

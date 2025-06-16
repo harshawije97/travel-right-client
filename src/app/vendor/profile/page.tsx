@@ -6,7 +6,7 @@ import BusinessDetailsSection from "./components/business-details-section";
 
 function EditVendorProfile() {
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full min-h-screen py-10">
       <div className="container mx-auto">
         <div className="w-full h-ful flex flex-col gap-y-28 px-16">
           <section className="max-w-4xl border flex flex-col gap-4 rounded-lg">
